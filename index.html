@@ -15,7 +15,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="header-container container">
+        <div class="header-container container-hd">
         <a class="header-logo link" href="">BRAND<sup class="header-logo-sup">tm</sup></a>
         <nav class="header-nav">
             <ul class="header-list list">
@@ -94,25 +94,79 @@
                     <p class="review-text">“A testimonial describing what the person thinks about this service, product or startup in general.”</p>
                     <img src="./images/Image-1.jpg" alt="">
                     <h3 class="review-title">Name Surname</h3>
-                    <p class="review-after-title">Description</p>                    
+                    <div class="social-grup">
+                    <p class="review-after-title">Description</p> 
+                    <ul class="social-list list">
+                        <li class="social-item">
+                            <a href="" class="social-link">
+                                <svg width="16" height="16">
+                                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="" class="social-link">
+                                <svg width="16" height="16">
+                                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                    </div>
                 </li>
                 <li class="review-item">
                     <p class="review-text">“A testimonial describing what the person thinks about this service, product or startup in general.”</p>
                     <img src="./images/Image-2.jpg" alt="">
                     <h3 class="review-title">Name Surname</h3>
-                    <p class="review-after-title">Description</p>
+                    <div class="social-grup">
+                        <p class="review-after-title">Description</p>
+                        <ul class="social-list list">
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <svg width="16" height="16">
+                                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <svg width="16" height="16">
+                                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
                 <li class="review-item">
                     <p class="review-text">“A testimonial describing what the person thinks about this service, product or startup in general.”</p>
                     <img src="./images/Image-3.jpg" alt="">
                     <h3 class="review-title">Name Surname</h3>
-                    <p class="review-after-title">Description</p>
+                    <div class="social-grup">
+                        <p class="review-after-title">Description</p>
+                        <ul class="social-list list">
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <svg width="16" height="16">
+                                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="social-item">
+                                <a href="" class="social-link">
+                                    <svg width="16" height="16">
+                                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
             </div>
         </section>
 
-        <section class="hero-bottom">
+        <section class="hero-bottom hero-bottom-bgc">
             <div class="container hero-bottom-container">
             <p class="hero-bottom-pre-title">Tagline</p>
             <h2 class="hero-bottom-title">Long headline to turn your visitors into users</h2>
@@ -149,12 +203,23 @@
             <li class="footer-item">Eighth</li>
             
         </ul>
+        
         <div class="footer-input">
         <p class="footer-title">Subscribe</p>
-        <input class="input" type="text" placeholder="Enter email">
+        <form class="form">
+        <input class="input"
+        aria-label="email"
+        type="email"
+        name="mail" 
+        placeholder="Enter email">
+        <svg class="footer-icon" width="24" height="24">
+            <use href="./images/symbol-defs.svg#icon-Icon"></use>
+        </svg>
         <p class="input-after-text">Join our newsletter to stay up to date on features and releases</p>
+        </form>
         </div>
         </div>
+        
 
     </footer>
 </body>
