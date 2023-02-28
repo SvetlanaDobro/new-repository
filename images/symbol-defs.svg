@@ -9,5 +9,11 @@
 <symbol id="icon-Icon" viewBox="0 0 32 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M20.466 23.333l-4.527-3.047-1.826 1.531-0.741-3.259 7.906-6.924-9.48 5.445-4.465-3.222 17.333-5.191-4.2 14.667z"></path>
 </symbol>
+<symbol id="icon-Group-12" viewBox="0 0 32 32">
+<path d="M32 16c0 8.837-7.163 16-16 16s-16-7.163-16-16c0-8.837 7.163-16 16-16s16 7.163 16 16z"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.28" d="M6.4 9.6h19.36"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.28" d="M6.4 14.72h19.36"></path>
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.28" d="M6.4 19.84h19.36"></path>
+</symbol>
 </defs>
 </svg>

@@ -1,0 +1,39 @@
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: 1px solid tomato;
+  }
+  .hero-content {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+  .hero-title {
+    width: 100%;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.21;
+    letter-spacing: -1px;
+  }
+  .hero-btn-right-text {
+    line-height: 2;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+}
+@media screen and (max-width: 743px) {
+  .header-nav {
+    display: none;
+  }
+  .header-btn {
+    display: none;
+  }
+  .header-btn-ham {
+    padding: 0;
+    background-color: transparent;
+    border-color: transparent;
+  }
+}

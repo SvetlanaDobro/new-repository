@@ -1,0 +1,37 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1170px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border: 1px solid teal;
+  }
+  .hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 130px;
+    padding-top: 64px;
+    padding-bottom: 114px;
+  }
+  .hero-content {
+    text-align: start;
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+  }
+  /* .hero-content {
+    width: 457px;
+    height: 288px;
+  } */
+  .btn-text {
+    display: flex;
+  }
+  .hero-btn-right-text {
+    margin-left: 20px;
+    width: 236px;
+    line-height: 1.43;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: 1024px) {
+  .container {
+    max-width: 960px;
+    padding-left: 32px;
+    padding-right: 32px;
+    border: 1px solid teal;
+  }
+  .hero-content {
+    padding-bottom: 34px;
+    padding-top: 43px;
+  }
+}
