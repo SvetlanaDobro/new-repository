@@ -34,4 +34,34 @@
     margin-top: 0;
     margin-bottom: 0;
   }
+  .advantages-container {
+    padding-top: 14px;
+    padding-bottom: 64px;
+  }
+  .advantages-list {
+    flex-direction: row;
+    gap: 30px;
+  }
+  .advantages-title {
+    justify-content: flex-start;
+  }
+  .advantages-after-title {
+    text-align: start;
+  }
+
+  .about-container {
+    flex-direction: row-reverse;
+    gap: 133px;
+  }
+  .about-title {
+    margin-bottom: 16px;
+    text-align: start;
+  }
+  .about-after-title {
+    margin-bottom: 16px;
+    text-align: start;
+  }
+  .about-list {
+    text-align: start;
+  }
 }

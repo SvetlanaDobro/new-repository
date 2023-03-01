@@ -172,15 +172,16 @@ img {
   font-size: 14px;
   /* line-height: 1.43; */
 }
+
 /* ADVANTAGES */
 .advantages-container {
-  padding-top: 14px;
-  padding-bottom: 64px;
+  /* padding-top: 14px;
+  padding-bottom: 64px; */
   background-color: #f3f3f3;
 }
 .advantages-list {
-  display: flex;
-  gap: 30px;
+  /* display: flex;
+  gap: 30px; */
 }
 .advantages-title {
   display: flex;
@@ -213,27 +214,27 @@ img {
 }
 .about-container {
   display: flex;
-  flex-direction: row-reverse;
+  /* flex-direction: row-reverse; */
   justify-content: space-between;
   align-items: center;
-  padding-top: 96px;
-  padding-bottom: 96px;
+  /* padding-top: 96px;
+  padding-bottom: 96px; */
 }
 .about-content {
-  width: 453px;
+  /* width: 453px; */
 }
 .about-title {
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   font-weight: 900;
-  font-size: 24px;
-  line-height: 1.33;
+  /* font-size: 24px;
+  line-height: 1.33; */
   letter-spacing: -0.1px;
   color: #ffffff;
 }
 .about-after-title {
-  margin-bottom: 16px;
-  font-size: 16px;
-  line-height: 1.5;
+  /* margin-bottom: 16px; */
+  /* font-size: 16px;
+  line-height: 1.5; */
   letter-spacing: 0.1px;
   color: #ffffff;
 }
@@ -241,8 +242,8 @@ img {
   padding-left: 20px;
 }
 .about-item {
-  font-size: 16px;
-  line-height: 1.5;
+  /* font-size: 16px;
+  line-height: 1.5; */
   letter-spacing: 0.1px;
   color: #ffffff;
 }
@@ -255,8 +256,8 @@ img {
 
 /* REVIEW */
 .review-container {
-  padding-top: 96px;
-  padding-bottom: 124px;
+  /* padding-top: 96px;
+  padding-bottom: 124px; */
 }
 .review-list {
   display: flex;
@@ -268,10 +269,17 @@ img {
   background-color: #f3f3f3;
   border-radius: 8px;
 }
+.review-item-1 {
+  overflow: hidden;
+}
 .review-text {
   margin-bottom: 56px;
   font-size: 18px;
   line-height: 1.55;
+}
+.picture {
+  width: 64px;
+  height: 64px;
 }
 .review-title {
   margin-top: 16px;
@@ -293,6 +301,21 @@ img {
   display: flex;
   align-items: center;
   gap: 16px;
+}
+.flips {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.flip {
+  display: block;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border: transparent;
 }
 
 /* HERO BOTTOM */

@@ -1,9 +1,36 @@
 @media screen and (min-width: 744px) {
   .container {
-    max-width: 696px;
+    max-width: 744px;
     border: 1px solid tomato;
   }
   .header-btn-ham {
     display: none;
+  }
+  .advantages-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .advantages-list {
+    gap: 40px;
+  }
+  /* ABOUT */
+  .about-container {
+    gap: 29px;
+  }
+  .about-title {
+    margin-bottom: 29px;
+
+    font-size: 24px;
+    line-height: 1.33;
+  }
+  .about-after-title {
+    margin-bottom: 29px;
+
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .about-item {
+    font-size: 16px;
+    line-height: 1.5;
   }
 }

@@ -5,6 +5,9 @@
     padding-right: 24px;
     border: 1px solid tomato;
   }
+  .hero-container {
+    padding-bottom: 21px;
+  }
   .hero-content {
     width: 100%;
     height: auto;
@@ -23,7 +26,70 @@
     margin-top: 16px;
     margin-bottom: 24px;
   }
+  /* ADVANTAGES */
+  .advantages-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .advantages-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 48px;
+  }
+  .advantages-title {
+    justify-content: center;
+  }
+  /* ABOUT */
+  .about-container {
+    flex-direction: column-reverse;
+    gap: 14px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .about-title {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 2;
+  }
+  .about-after-title {
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  .about-list {
+    text-align: center;
+  }
+  .about-item {
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  /* REVIEW */
+  .review-container {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+  .review-text {
+    text-align: center;
+  }
+  .picture {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .review-title {
+    text-align: center;
+  }
+  .social-grup {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
 }
+
 @media screen and (max-width: 743px) {
   .header-nav {
     display: none;
